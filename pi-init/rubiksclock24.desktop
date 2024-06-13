@@ -1,7 +1,0 @@
-[Desktop Entry] 
-Name=Rubiks Clock
-
-Exec=/usr/bin/chromium-browser --kiosk 'file:///home/pi/rubiks-clock/index.html#giantclock24'
-
-Type=application
-Terminal=false
