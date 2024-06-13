@@ -567,7 +567,7 @@ table, td, tr {
 	top:   20px;
 	left: 0px;
 	width: 200px;	
-	height: auto;
+	height: 30px;
 	max-height:30px;
 	color: rgba( 0, 0, 0, 1 );
 	overflow: auto;
@@ -695,7 +695,6 @@ table, td, tr {
 	width: 90px;
 }
 #cubeTwistDuration input {
-
 	width: 40px;
 	text-align: right;
 }
@@ -723,7 +722,7 @@ table, td, tr {
 	margin-right: 20px;
 	border: 1px solid rgba( 0, 0, 0, 0.2 );
 	border-radius: 2px;
-	/*padding: 2px 4px 2px 4px;	*/
+	padding: 2px 4px 2px 4px;
 	text-align: center;
 	font-weight: bold;
 	color: rgba( 0, 0, 0, 0.8 );
