@@ -642,7 +642,7 @@ table, td, tr {
 }
 #controlsOpen a {
 	display: block;
-	padding-right: 20px;
+	right: 20px;
 	color: rgba( 0, 0, 0, 0.4 )!important;
 	text-decoration: none;
 	border: none;
