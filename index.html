@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		<meta name="description" content="Rubik’s Clock">
-		<meta name="keywords" content="Erno Rubik’s Cube Clock">
+		<meta name="keywords" content="Erno Rubik’s Cube Clock, Rbiks 3d clock, 3d clock, cube clock, clock app, rubiks cube clock app, clock in a cube">
 		
 		<link rel="stylesheet" type="text/css" href="styles/base.css">
 		<link rel="icon" type="image/png" href="media/cuber-favicon-0064x0064.png">
@@ -13,7 +13,7 @@
 		<!-- <link rel="icon" type="image/png" href="media/rubiks-clock-favicon.png">
 		<link rel="apple-touch-icon" href="media/cubiks-clock-favicon.png"> -->
 		
-		<title>Rubik's Clock</title>
+		<title>Rubik's 3D Clock</title>
 		
 
 		<!--  Third-party frameworks and scaffolds.  -->
@@ -49,9 +49,6 @@
 		<!-- high-level and state setup.  And start the main loop-->
 		<script charset="utf-8" src="scripts/erno.js"></script>
 
-
-		
-
 	</head>
 	<bodyy style="background-color:#fff!important;" class="graydientt">
 
@@ -77,9 +74,9 @@
 		<div id="controls">
 			<div class="pad">
 
-				<a id="controlsClose" class="key" href="." onclick="$('#controls').fadeOut( 500 );$('#controlsOpen').fadeIn( 500 );return false">&uarr;</a>
+				<a id="controlsClose" class="key" href="." onclick="$('#controls').fadeOut( 500 );$('#controlsOpen').fadeIn( 500 );return false">× Close</a>
 
-				<div id="actions">
+				<br/><br/><div id="actions">
 					<h2>Clock Style</h2>
 					<a href="javascript:cube.presetClock12(); javascript:cube.solve()">12-hour</a>
 					<a href="javascript:cube.presetClock24(); javascript:cube.solve()">24-hour</a>
@@ -94,20 +91,18 @@
 					<label><input type="checkbox" id="actionRotate">Auto rotate</label>
 					<label><input type="checkbox" id="actionNotation">Show twist notation</label>
 					<label><input type="checkbox" id="attributeFaceLabels" checked>Cube face labels</label>
-					<!--<label><input type="checkbox" id="attributeIds"        checked>Cubelet Ids</label>-->
+					<--<label><input type="checkbox" id="attributeIds"        checked>Cubelet Ids</label>-->
 
 				</div>
 
 				<div id="attributes">
 					<!-- Hidden checkboxes that need to be checked by default -->
-					<input type="checkbox" id="attributePlastics"  style="display:none" checked>
-					<input type="checkbox" id="attributeIntroverts" style="display:none" checked>
-					<input type="checkbox" id="attributeStickers" style="display:none"  checked>
+					<input type="checkbox" id="attributePlastics"  style="displayy:none" checked>
+					<input type="checkbox" id="attributeIntroverts" style="displayy:none" checked>
+					<input type="checkbox" id="attributeStickers" style="displayy:none"  checked>
 				</div>
-					<H2>Powered by team DaverMike</H2>
-					<a href="https://www.instructables.com/Rubiks-Clock">Instructables</a>
-					<br>
-					<a href="https://github.com/mhirst1960/rubiks-clock">GitHub</a>
+					<small>Developed by DaverMike</small>
+					
 				<div>
 
 				</div>
