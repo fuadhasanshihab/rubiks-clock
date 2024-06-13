@@ -575,10 +575,10 @@ table, td, tr {
 
 .brightnessControl {
 	position: absolute;
-	top:   0;
-	left: 0;
-	width: 200px;	
-	height: 100%;
+	top:   20px;
+	left: 20px;
+	width: auto;	
+	height: auto;
 	color: rgba( 0, 0, 0, 1 );
 	overflow: auto;
 	opacity: 1;
