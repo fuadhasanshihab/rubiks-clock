@@ -48,8 +48,8 @@ O = ORANGE = new Color(
 
 	'orange',
 	'O',
-	'#F60',
-	'font-weight: bold; color: #F60',
+	'#FF5800',
+	'font-weight: bold; color: #FF5800',
 	'background-color: #F60; color: rgba( 255, 255, 255, 0.9 )'
 ),
 B = BLUE = new Color(
@@ -64,25 +64,25 @@ R = RED = new Color(
 
 	'red',
 	'R',
-	'#F00',
-	'font-weight: bold; color: #F00',
-	'background-color: #F00; color: rgba( 255, 255, 255, 0.9 )'
+	'#C41E3A',
+	'font-weight: bold; color: #C41E3A',
+	'background-color: #C41E3A; color: rgba( 255, 255, 255, 0.9 )'
 ),
 G = GREEN = new Color(
 
 	'green',
 	'G',
-	'#0A0',
+	'#009E60',
 	'font-weight: bold; color: #0A0',
-	'background-color: #0A0; color: rgba( 255, 255, 255, 0.9 )'
+	'background-color: #009E60; color: rgba( 255, 255, 255, 0.9 )'
 ),
 Y = YELLOW = new Color(
 
 	'yellow',
 	'Y',
-	'#FE0',
+	'#FFD500',
 	'font-weight: bold; color: #ED0',
-	'background-color: #FE0; color: rgba( 0, 0, 0, 0.5 )'
+	'background-color: #FFD500; color: rgba( 0, 0, 0, 0.5 )'
 ),
 COLORLESS = new Color(
 
@@ -92,6 +92,5 @@ COLORLESS = new Color(
 	'color: #EEE',
 	'color: #DDD'
 )
-
 
 
