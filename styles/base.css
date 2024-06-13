@@ -20,9 +20,8 @@ html, body {
 	width:  100%;
 	height: 100%;
 }
-body {
-	
-	background-color: #fff;
+body {	
+	background-color: #fff!important;
 	vertical-align: top;
 	overflow: hidden;
 }
@@ -72,7 +71,7 @@ table, td, tr {
 }
 .graydient {
 	/* http://www.colorzilla.com/gradient-editor/ */
-	background: #fff; /* Old browsers */
+	background: #fff!important; /* Old browsers */
 	}
 .heroicRed {
 	background-color: #F00;
