@@ -642,7 +642,8 @@ table, td, tr {
 }
 #controlsOpen a {
 	display: block;
-	margin-right: 30px;
+	margin-right: 20px;
+	margin-top: 2px!important;
 	color: rgba( 0, 0, 0, 0.5 )!important;
 	text-decoration: none;
 	border: none;
@@ -681,11 +682,9 @@ table, td, tr {
 	text-align: right;
 }
 #camera label, #cubePosition label, #cubeRotation label, #cubeRotationDelta label {
-
 	display: block;
 }
 #cubePosition input, #cubeRotation input, #cubeRotationDelta input, #partialRots input {
-
 	margin-left: 5px;
 	width: 50px;
 	text-align: right;
@@ -699,7 +698,6 @@ table, td, tr {
 	text-align: right;
 }
 #attributes label, #actions label {
-
 	display: block;
 }
 #attributes label:hover, #actions label:hover {
@@ -709,11 +707,9 @@ table, td, tr {
 	cursor: pointer;
 }
 #attributes input, #actions input {
-
 	margin-right: 10px;
 }
 #actions a, #presets a {
-
 	display: block;
 	padding: 1px 0 1px 0;
 }
