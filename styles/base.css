@@ -146,9 +146,8 @@ table, td, tr {
 
 
 .cubelet {
-
-	width:  140px;
-	height: 140px;
+	width:  120px;
+	height: 120px;/*140*/
 	position: absolute;
   	-webkit-transform-style: preserve-3d;	
 }
