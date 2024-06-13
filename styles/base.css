@@ -566,8 +566,8 @@ table, td, tr {
 	position: absolute;
 	top:   20px;
 	left: 0px;
-	width: 200px;	
-	height: 30px;
+	width: 0px;	
+	height: 0px;
 	max-height:30px;
 	color: rgba( 0, 0, 0, 1 );
 	overflow: auto;
