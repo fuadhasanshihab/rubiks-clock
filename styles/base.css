@@ -4,7 +4,7 @@
  /*          */
 /************/
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 @font-face {
 	font-family: "RubikExtended";
@@ -24,12 +24,11 @@ body {
 	overflow: hidden;
 }
 body, h1, h2 {
-
 	margin:  0;
 	border:  0;
 	padding: 0;
 	font-family: "Poppins", sans-serif;
-	font-size:   12px;
+	font-size:   14px;
 	line-height: 15px;
 	color: rgba( 0, 0, 0, 0.8 );
 }
@@ -720,28 +719,19 @@ table, td, tr {
 	padding: 1px 0 1px 0;
 }
 #controls .key, #controls .key:hover {
-	
 	display: inline-block;
 	margin-right: 20px;
-	width: 40px;
-	height: 40px;
 	border: 1px solid rgba( 0, 0, 0, 0.2 );
 	border-radius: 2px;
 	/*padding: 2px 4px 2px 4px;	*/
 	text-align: center;
-	line-height: 40px;
-	/*font-family: 'Courier New', Courier, monospace;*/
-	font-family: sans-serif;
 	font-weight: bold;
-	font-size:x-large;
 	color: rgba( 0, 0, 0, 0.8 );
 }
 .key+.key {
-
 	margin-right: 5px;
 }
 .keyBundle {
-
 	margin-top: 12px;
 }
 #commands {
@@ -749,6 +739,6 @@ table, td, tr {
 	line-height: 24px;
 }
 textarea#texts {
-	font-family: "RubikExtended";
+	font-family: "Poppins";
 	font-size: 24px;
 }
