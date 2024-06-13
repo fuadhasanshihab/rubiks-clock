@@ -275,7 +275,7 @@ table, td, tr {
 */
 .sticker {
 	position: absolute;
-	margin: 0px 0 0 0px;
+	margin: 1px 0 0 1px;
 	right:0px!important;
 	bottom:0px!important;
 	top:0px!important;
@@ -285,11 +285,12 @@ table, td, tr {
 	background-color: #F0F;
 	border-radius: 12px;
 	text-align: center;
+	box-shadow: 0 5px 5px rgba(255,255,255,0.1) inset, inset 0 -5px 5px rgba(0,0,0,0.1);
 }
 .stickerLogo {
 
 	position: absolute;
-	margin: 0px 0 0 0px;
+	margin: 1px 0 0 1px;
 	right:0px!important;
 	bottom:0px!important;
 	top:0px!important;
