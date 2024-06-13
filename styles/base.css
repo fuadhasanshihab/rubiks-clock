@@ -175,8 +175,9 @@ table, td, tr {
 	position: absolute;
 	width:  140px;
 	height: 140px;
-	background-color: green;
+	background-color: #111;
 	text-align: center;
+	box-shadow: 0 5px 5px rgba(255,255,255,0.1) inset, inset 0 -5px 5px rgba(0,0,0,0.1);
 	-webkit-backface-visibility: hidden;
   	-moz-backface-visibility:    hidden;
   	-ms-backface-visibility:     hidden;
@@ -199,7 +200,7 @@ table, td, tr {
 	are momentarily visible as the cube twists.
 
 */
-.faceIntroverted { background-color: red; }
+.faceIntroverted { background-color: #111; }
 /*
 
 	Our Cubelet faces are naturally black to match the physical Rubik's Cube.
@@ -279,8 +280,8 @@ table, td, tr {
 	bottom:0px!important;
 	top:0px!important;
 	left:0px!important;
-	width:  140px;
-	height: 140px;/*120*/
+	width:  138px;
+	height: 138px;/*120*/
 	background-color: #F0F;
 	border-radius: 12px;
 	text-align: center;
@@ -293,8 +294,8 @@ table, td, tr {
 	bottom:0px!important;
 	top:0px!important;
 	left:0px!important;
-	width:  140px;
-	height: 140px;
+	width:  138px;
+	height: 138px;
 	
 	background-image: url( "../media/rubiksLogoClassic.png" );	
 	background-size: 120px 120px;
