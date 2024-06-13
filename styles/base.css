@@ -282,13 +282,12 @@ table, td, tr {
 	left:0px!important;
 	width:  138px;
 	height: 138px;/*120*/
-	background-color: #F0F;
+	background-color: #111;
 	border-radius: 12px;
 	text-align: center;
 	box-shadow: 0 5px 5px rgba(255,255,255,0.1) inset, inset 0 -5px 5px rgba(0,0,0,0.1);
 }
 .stickerLogo {
-
 	position: absolute;
 	margin: 1px 0 0 1px;
 	right:0px!important;
@@ -296,8 +295,7 @@ table, td, tr {
 	top:0px!important;
 	left:0px!important;
 	width:  138px;
-	height: 138px;
-	
+	height: 138px;	
 	background-image: url( "../media/rubiksLogoClassic.png" );	
 	background-size: 120px 120px;
 	background-repeat: none;
@@ -583,9 +581,9 @@ table, td, tr {
 	left: 0;
 	width: 200px;	
 	height: 100%;
-	color: rgba( 0, 0, 0, 0.0 );
+	color: rgba( 0, 0, 0, 1 );
 	overflow: auto;
-	opacity: 0.0;
+	opacity: 0.1;
 }
 
 
