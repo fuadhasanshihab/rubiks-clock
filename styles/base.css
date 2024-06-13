@@ -274,9 +274,9 @@ table, td, tr {
 */
 .sticker {
 	position: absolute;
-	margin: 5px 0 0 5px;
-	right:5px!important;
-	bottom:5px!important;
+	margin: 0px 0 0 0px;
+	right:0px!important;
+	bottom:0px!important;
 	width:  110px;
 	height: 110px;/*120*/
 	background-color: #F0F;
@@ -286,9 +286,9 @@ table, td, tr {
 .stickerLogo {
 
 	position: absolute;
-	margin: 5px 0 0 5px;
-	right:5px!important;
-	bottom:5px!important;
+	margin: 0px 0 0 0px;
+	right:0px!important;
+	bottom:0px!important;
 	width:  110px;
 	height: 110px;
 	
