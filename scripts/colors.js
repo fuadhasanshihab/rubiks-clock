@@ -1,6 +1,4 @@
 /*
-
-
 	COLORS
 
 	Here's a little bootstrapping to create our global Color constants.
@@ -8,19 +6,7 @@
 	moved forward having these objects available became highly desirable.
 	Sure, ES5 doesn't really have constants but the all-caps alerts you
 	to the fact that them thar variables ought not to be messed with.
-
-
 */
-
-
-
-
-
-
-
-
-
-
 
 
 function Color( name, initial, hex, styleF, styleB ){
@@ -41,7 +27,7 @@ W = WHITE = new Color(
 	'white',
 	'W',
 	'#FFF',
-	'font-weight: bold; color: #888',
+	'font-weight: bold; color: #111',
 	'background-color: #F3F3F3; color: rgba( 0, 0, 0, 0.5 )'
 ),
 O = ORANGE = new Color(
@@ -57,32 +43,32 @@ B = BLUE = new Color(
 	'blue',
 	'B',
 	'#0051BA',
-	'font-weight: bold; color: #fff',
-	'background-color: #0051BA; color: rgba( 255, 255, 255, 0.9 )'
+	'font-weight: bold; color: #000',
+	'background-color: #0051BA; color: rgba( 0, 0, 0, 1 )'
 ),
 R = RED = new Color(
 
 	'red',
 	'R',
 	'#C41E3A',
-	'font-weight: bold; color: #C41E3A',
-	'background-color: #C41E3A; color: rgba( 255, 255, 255, 0.9 )'
+	'font-weight: bold; color: #000',
+	'background-color: #C41E3A; color: rgba( 0, 0, 0, 1 )'
 ),
 G = GREEN = new Color(
 
 	'green',
 	'G',
 	'#009E60',
-	'font-weight: bold; color: #0A0',
-	'background-color: #009E60; color: rgba( 255, 255, 255, 0.9 )'
+	'font-weight: bold; color: #000',
+	'background-color: #009E60; color: rgba( 0, 0, 0, 1 )'
 ),
 Y = YELLOW = new Color(
 
 	'yellow',
 	'Y',
 	'#FFD500',
-	'font-weight: bold; color: #ED0',
-	'background-color: #FFD500; color: rgba( 0, 0, 0, 0.5 )'
+	'font-weight: bold; color: #000',
+	'background-color: #FFD500; color: rgba( 0, 0, 0, 1 )'
 ),
 COLORLESS = new Color(
 
@@ -92,5 +78,3 @@ COLORLESS = new Color(
 	'color: #EEE',
 	'color: #DDD'
 )
-
-
