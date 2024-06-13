@@ -279,8 +279,8 @@ table, td, tr {
 	bottom:0px!important;
 	top:0px!important;
 	left:0px!important;
-	width:  130px;
-	height: 130px;/*120*/
+	width:  140px;
+	height: 140px;/*120*/
 	background-color: #F0F;
 	border-radius: 12px;
 	text-align: center;
@@ -293,8 +293,8 @@ table, td, tr {
 	bottom:0px!important;
 	top:0px!important;
 	left:0px!important;
-	width:  130px;
-	height: 130px;
+	width:  140px;
+	height: 140px;
 	
 	background-image: url( "../media/rubiksLogoClassic.png" );	
 	background-size: 120px 120px;
