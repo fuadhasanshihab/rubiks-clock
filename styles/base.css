@@ -171,7 +171,7 @@ table, td, tr {
 	position: absolute;
 	width:  140px;
 	height: 140px;
-	background-color: #fff;
+	background-color: #222;
 	text-align: center;
 	box-shadow: 0 7px 7px rgba(255,255,255,0.1) inset, inset 0 -7px 7px rgba(0,0,0,0.1);
 	-webkit-backface-visibility: hidden;
@@ -196,7 +196,7 @@ table, td, tr {
 	are momentarily visible as the cube twists.
 
 */
-.faceIntroverted { background-color: #fff; }
+.faceIntroverted { background-color: #222; }
 /*
 
 	Our Cubelet faces are naturally black to match the physical Rubik's Cube.
