@@ -1,7 +1,4 @@
 
-
-
-
     /************/
    /*          */
   /*   Base   */
@@ -73,14 +70,13 @@ table, td, tr {
 	background: radial-gradient(ellipse at center,  #444 0%,#000000 90%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
+.graydient {
+	/* http://www.colorzilla.com/gradient-editor/ */
+	background: #fff; /* Old browsers */
+	}
 .heroicRed {
-
 	background-color: #F00;
 }
-
-
-
-
 
 
     /************/
@@ -91,7 +87,6 @@ table, td, tr {
 
 
 .cube {
-
 	width:  420px;
 	height: 420px;
 }
