@@ -81,11 +81,10 @@ table, td, tr {
 
 
 .cube {
-	width:  200px;
-	height: 200px;
+	width:  420px;
+	height: 420px;
 }
 #cubeHasTwistsQueued {
-
 	box-sizing: border-box;
 	display: none;
 	position: absolute;
@@ -145,7 +144,6 @@ table, td, tr {
  /*              */
 /****************/
 
-
 .cubelet {
 	width:  140px;
 	height: 140px;/*140*/
@@ -163,8 +161,6 @@ table, td, tr {
   /*   Cubelet Faces   */
  /*                   */
 /*********************/
-
-
 /*
 	
 	Direction-facing planes of limited size
@@ -176,7 +172,7 @@ table, td, tr {
 	position: absolute;
 	width:  140px;
 	height: 140px;
-	background-color: #111;
+	background-color: #fff;
 	text-align: center;
 	box-shadow: 0 7px 7px rgba(255,255,255,0.1) inset, inset 0 -7px 7px rgba(0,0,0,0.1);
 	-webkit-backface-visibility: hidden;
@@ -201,7 +197,7 @@ table, td, tr {
 	are momentarily visible as the cube twists.
 
 */
-.faceIntroverted { background-color: #111; }
+.faceIntroverted { background-color: #fff; }
 /*
 
 	Our Cubelet faces are naturally black to match the physical Rubik's Cube.
@@ -240,20 +236,15 @@ table, td, tr {
   /*   Cubelet Face Content   */
  /*                          */
 /****************************/
-
-
 /*
-
 	WIREFRAMES
 
 	Oddly, we cannot use borders to make our wireframes
 	because this will cause a visible oscillation as CSS
 	struggles to decide what gets drawn on top.
 	Instead we use specially crafted box-shadows.
-
 */
 .wireframe {
-
 	box-sizing: border-box;
 	display: none;
 	position: absolute;
@@ -265,7 +256,6 @@ table, td, tr {
 
 
 /*
-
 	STICKERS
 
 	About what you'd expect. The default color here
@@ -276,13 +266,13 @@ table, td, tr {
 */
 .sticker {
 	position: absolute;
-	margin: 1px 0 0 1px;
+	margin: 2px 0 0 2px;
 	right:0px!important;
 	bottom:0px!important;
 	top:0px!important;
 	left:0px!important;
-	width:  138px;
-	height: 138px;/*120*/
+	width:  136px;
+	height: 136px;/*120*/
 	background-color: #111;
 	border-radius: 12px;
 	text-align: center;
@@ -290,13 +280,13 @@ table, td, tr {
 }
 .stickerLogo {
 	position: absolute;
-	margin: 1px 0 0 1px;
+	margin: 2px 0 0 2px;
 	right:0px!important;
 	bottom:0px!important;
 	top:0px!important;
 	left:0px!important;
-	width:  138px;
-	height: 138px;	
+	width:  136px;
+	height: 136px;	
 	background-image: url( "../media/rubiksLogoClassic.png" );	
 	background-size: 120px 120px;
 	background-repeat: none;
