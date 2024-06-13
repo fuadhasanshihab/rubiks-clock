@@ -178,7 +178,7 @@ table, td, tr {
 	height: 140px;
 	background-color: #111;
 	text-align: center;
-	box-shadow: 0 5px 5px rgba(255,255,255,0.1) inset, inset 0 -5px 5px rgba(0,0,0,0.1);
+	box-shadow: 0 7px 7px rgba(255,255,255,0.1) inset, inset 0 -7px 7px rgba(0,0,0,0.1);
 	-webkit-backface-visibility: hidden;
   	-moz-backface-visibility:    hidden;
   	-ms-backface-visibility:     hidden;
@@ -576,9 +576,10 @@ table, td, tr {
 .brightnessControl {
 	position: absolute;
 	top:   20px;
-	left: 20px;
+	left: 0px;
 	width: 200px;	
-	height: 200px;
+	height: auto;
+	max-height:30px;
 	color: rgba( 0, 0, 0, 1 );
 	overflow: auto;
 	opacity: 1;
