@@ -642,8 +642,8 @@ table, td, tr {
 }
 #controlsOpen a {
 	display: block;
-	right: 20px;
-	color: rgba( 0, 0, 0, 0.4 )!important;
+	right: 30px;
+	color: rgba( 0, 0, 0, 0.5 )!important;
 	text-decoration: none;
 	border: none;
 }
