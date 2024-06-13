@@ -28,7 +28,7 @@ W = WHITE = new Color(
 	'W',
 	'#FFF',
 	'font-weight: bold; color: #111',
-	'background-color: #F3F3F3; color: rgba( 0, 0, 0, 0.5 )'
+	'background-color: #FAFAFA; color: rgba( 0, 0, 0, 0.5 )'
 ),
 O = ORANGE = new Color(
 
