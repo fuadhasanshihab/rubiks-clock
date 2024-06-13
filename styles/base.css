@@ -218,11 +218,11 @@ table, td, tr {
 */
 .purty .face { opacity: 0.5; }
 .purty .face.faceFront { background-color: #FFF; }
-.purty .face.faceUp    { background-color: #F60; }
-.purty .face.faceRight { background-color: #00D; }
-.purty .face.faceDown  { background-color: #F00; }
-.purty .face.faceLeft  { background-color: #0A0; }
-.purty .face.faceBack  { background-color: #FE0; }
+.purty .face.faceUp    { background-color: #FF5800; }
+.purty .face.faceRight { background-color: #0051ba; }
+.purty .face.faceDown  { background-color: #c41e3a; }
+.purty .face.faceLeft  { background-color: #009e60; }
+.purty .face.faceBack  { background-color: #Ffd500; }
 /*.purty .face.faceFront { background-color: #CCC; }
 .purty .face.faceUp    { background-color: #C30; }
 .purty .face.faceRight { background-color: #00A; }
