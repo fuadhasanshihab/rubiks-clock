@@ -56,9 +56,9 @@ B = BLUE = new Color(
 
 	'blue',
 	'B',
-	'#00D',
-	'font-weight: bold; color: #00D',
-	'background-color: #00D; color: rgba( 255, 255, 255, 0.9 )'
+	'#0051BA',
+	'font-weight: bold; color: #fff',
+	'background-color: #0051BA; color: rgba( 255, 255, 255, 0.9 )'
 ),
 R = RED = new Color(
 
